@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@android:color/black" />
+
+    <item android:drawable="@drawable/themesplash_title"
+        android:top="30dp"
+        android:scaleType="fitXY"
+        android:left="30dp">
+
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/img320_eimetadataa"
+            android:gravity="center"/>
+    </item>
+
+</layer-list>
